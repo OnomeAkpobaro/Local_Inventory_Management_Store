@@ -1,6 +1,6 @@
 
-from product import Products
-from store import Store
+from local_inventory_management_store.product import Products
+from local_inventory_management_store.store import Store
 def display_menu():
     print("\nLocal Inventory Store.")
     print("1. Add Product")

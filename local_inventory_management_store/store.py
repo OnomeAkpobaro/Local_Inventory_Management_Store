@@ -1,8 +1,8 @@
 # 1. Product Management
 # 2. Stock Management 
 # 3. Search and Sort
-from product import Products
-from dbconn import Database
+from local_inventory_management_store.product import Products
+from local_inventory_management_store.dbconn import Database
 
 class Store:
     low_stock = 10
